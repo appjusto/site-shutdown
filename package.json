@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "npm run build && firebase deploy",
+    "deploy:staging": "npm run build && firebase use app-justo-staging && firebase deploy",
+    "deploy:live": "npm run build && firebase use app-justo-live && firebase deploy",
     "lint": "next lint"
   },
   "dependencies": {
