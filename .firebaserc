@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "app-justo-staging"
+  },
+  "app-justo-staging": {
+    "hosting": {
+      "site": [
+        "appjusto-site-staging"
+      ]
+    }
+  }
+}
