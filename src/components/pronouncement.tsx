@@ -32,8 +32,11 @@ export default function Pronouncement() {
         implementado nenhum tipo de gestão algorítmica que pudesse diminuir a
         autonomia de quem trabalhava pela plataforma.{" "}
         <strong>
-          (Mais informações sobre nossa proposta de  regulamentação do trabalho
-          por plataforma abaixo)
+          (Leia nossa proposta de regulamentação{" "}
+          <Link href="/cadastro" className="underline">
+            neste link
+          </Link>
+          )
         </strong>
         .
       </p>
