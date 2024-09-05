@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import type { Metadata } from "next";
 import { Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={hanken.className}>{children}</body>
+      <body className={hanken.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
