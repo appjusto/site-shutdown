@@ -1,6 +1,4 @@
 import Header from "@/components/header";
-import Pronouncement from "@/components/pronouncement";
-import Proposal from "@/components/proposal";
 import Link from "next/link";
 
 export default function Cadastro() {
@@ -127,8 +125,11 @@ export default function Cadastro() {
             <p>
               Com a suspensão das operações do AppJusto, ficam a experiência e
               os debates acumulados, que reuniram entregadores, pesquisadores e
-              gestores. Seguimos mobilizados e à disposição para colaborar com
-              pessoas e entidades interessadas em viabilizar propostas nesse
+              gestores. Seguimos mobilizados e{" "}
+              <Link href="mailto:contato@appjusto.com.br" className="underline">
+                à disposição para colaborar
+              </Link>{" "}
+              com pessoas e entidades interessadas em viabilizar propostas nesse
               sentido: por trabalho justo e efetivamente autônomo.
             </p>
           </div>

@@ -3,10 +3,9 @@ import Link from "next/link";
 export default function Pronouncement() {
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="mb-4 lg:mb-6">Encerramento das operações do AppJusto</h1>
+      <h1 className="mb-4 lg:mb-6">Suspensão das operações do AppJusto</h1>
       <p>
-        É com muito pesar que informamos o encerramento das operações do
-        AppJusto.
+        É com muito pesar que informamos a suspensão das operações do AppJusto.
       </p>
       <p>
         Nossa história começou em 2020, compartilhando a revolta de
@@ -32,9 +31,9 @@ export default function Pronouncement() {
         implementado nenhum tipo de gestão algorítmica que pudesse diminuir a
         autonomia de quem trabalhava pela plataforma.{" "}
         <strong>
-          (Leia nossa proposta de regulamentação{" "}
+          (
           <Link href="/cadastro" className="underline">
-            neste link
+            Leia nossa proposta de regulamentação neste link
           </Link>
           )
         </strong>
@@ -50,15 +49,20 @@ export default function Pronouncement() {
           o AppJusto foi considerada a plataforma que mais fez pelo trabalho
           decente no Brasil
         </Link>
-        . Nosso financiamento coletivo atraiu XXX investidores – um recorde em
-        número de participantes de equity crowdfunding no Brasil. O código-fonte
-        livre da plataforma foi estudado por alunos/as em faculdades do país.
+        . Nosso financiamento coletivo atraiu 938 investidores (incluindo 29
+        entregadores) – um recorde em número de participantes de equity
+        crowdfunding no Brasil. O código-fonte livre da plataforma foi estudado
+        por alunos/as em faculdades do país.
       </p>
       <p>
-        Ficamos especialmente orgulhosos das XX mil entregas realizadas, que
-        geraram ganhos XX% maiores para entregadores e uma economia de R$ XX em
-        taxas para restaurantes, contribuindo com os ODS 8 (trabalho digno e
-        crescimento econômico) e 10 (reduzir as desigualdades).
+        Ficamos especialmente orgulhosos das mais de{" "}
+        <strong>70 mil entregas realizadas</strong>, que geraram{" "}
+        <strong>ganhos 38% maiores</strong> para entregadores e{" "}
+        <strong>
+          mais de R$ 1 milhão em economia de taxas para restaurantes
+        </strong>
+        , contribuindo com os ODS 8 (trabalho digno e crescimento econômico) e
+        10 (reduzir as desigualdades).
       </p>
       <p>
         Ainda assim, todos os nossos esforços não foram suficientes para que o
@@ -66,7 +70,10 @@ export default function Pronouncement() {
         estamos encerrando as operações e planejando os próximos passos.{" "}
         <strong>
           Se você fizer parte de alguma organização que acredita no impacto e na
-          viabilidade do projeto, queremos falar com você
+          viabilidade do projeto,{" "}
+          <Link href="mailto:contato@appjusto.com.br" className="underline">
+            queremos falar com você
+          </Link>
         </strong>
         .
       </p>
@@ -77,8 +84,9 @@ export default function Pronouncement() {
         aqueles/as que fizeram pedidos.
       </p>
       <p>
-        Seguimos acreditando na importância de combater o monopólio e usar a
-        tecnologia para criar negócios sociais justos.
+        Seguimos acreditando na importância de combater o monopólio e a
+        precarização do trabalho, usando a tecnologia para criar negócios
+        sociais justos.
       </p>
     </div>
   );
