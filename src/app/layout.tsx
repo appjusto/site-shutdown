@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
 
 const hanken = Hanken_Grotesk({
   subsets: ["latin"],
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={hanken.className}>{children}</body>
+      <body className={hanken.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,10 +1,8 @@
-import Header from "@/components/header";
 import Link from "next/link";
 
 export default function Cadastro() {
   return (
     <>
-      <Header />
       <main className="pt-24 lg:pt-48 flex min-h-screen flex-col">
         <div className="max-w-[922px] container flex flex-col gap-10 lg:gap-16 pb-16 lg:pb-24">
           <div className="flex flex-col gap-4">
