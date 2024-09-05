@@ -69,9 +69,15 @@ export default function Home() {
             e 10 (reduzir as desigualdades).
           </p>
           <p>
-            Ainda assim, todos os nossos esforços não foram suficientes para que
-            o AppJusto conseguisse alcançar viabilidade financeira, e é por isso
-            que estamos encerrando as operações e planejando os próximos passos.{" "}
+            Tem sido uma construção coletiva, com objetivo de disponibilizar uma
+            tecnologia que aumente os ganhos ao invés de ser um intermediário
+            que explora.
+          </p>
+          <p>
+            Ainda assim,nossas estratégias de crescimento e captação de recursos
+            infelizmente não foram bem sucedidas. Sem o fluxo de caixa e equipe
+            adequados, chegamos ao limite do que poderíamos fazer e entendemos
+            que a suspensão das operações se faz necessária agora.{" "}
             <strong>
               Se você fizer parte de alguma organização que acredita no impacto
               e na viabilidade do projeto,{" "}
