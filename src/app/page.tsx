@@ -74,10 +74,10 @@ export default function Home() {
             que explora.
           </p>
           <p>
-            Ainda assim,nossas estratégias de crescimento e captação de recursos
-            infelizmente não foram bem sucedidas. Sem o fluxo de caixa e equipe
-            adequados, chegamos ao limite do que poderíamos fazer e entendemos
-            que a suspensão das operações se faz necessária agora.{" "}
+            Ainda assim, nossas estratégias de crescimento e captação de
+            recursos infelizmente não foram bem sucedidas. Sem o fluxo de caixa
+            e equipe adequados, chegamos ao limite do que poderíamos fazer e
+            entendemos que a suspensão das operações se faz necessária agora.{" "}
             <strong>
               Se você fizer parte de alguma organização que acredita no impacto
               e na viabilidade do projeto,{" "}
